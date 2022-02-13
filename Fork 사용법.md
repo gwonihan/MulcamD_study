@@ -2,19 +2,19 @@
 
 ### 1. 먼저 Fork를 진행할 원본 Repository 를 클릭합니다. 
 
-![1. 깃 fork하기](C:/Users/us/Desktop/%EB%B6%80%EC%97%89%EC%9D%B4/1.%20%EA%B9%83%20fork%ED%95%98%EA%B8%B0.png)
+![1번](Fork%20%EC%82%AC%EC%9A%A9%EB%B2%95/1._%EA%B9%83_fork%ED%95%98%EA%B8%B0.png)
 
 
 
 ### 2. 우측 상단의 Fork를 클릭합니다.
 
-![2. 깃 clone하기](C:/Users/us/Desktop/%EB%B6%80%EC%97%89%EC%9D%B4/2.%20%EA%B9%83%20clone%ED%95%98%EA%B8%B0.png)
+![2. 깃 clone하기](https://postfiles.pstatic.net/MjAyMjAyMTNfOTQg/MDAxNjQ0NzUzOTcyMzE2.isBPBfKg7LoETgF3N0qoxopp-_VExN3U4ANv2htlL4sg.haHIbc9zj1T401rTXU2L544WrI0Bc1g6_mlRIxyLK1cg.PNG.dghan604/2._%EA%B9%83_clone%ED%95%98%EA%B8%B0.png?type=w580)
 
 
 
 ### 3. Fork를 클릭하면 Forking username/Forked Repository 와 같은 메세지가 뜹니다.
 
-![3.forking](C:/Users/us/Desktop/%EB%B6%80%EC%97%89%EC%9D%B4/3.forking.png)
+![3.forking](Fork%20%EC%82%AC%EC%9A%A9%EB%B2%95/3.forking.png)
 
 
 
@@ -22,7 +22,7 @@
 
 빨간색 체크 박스를 보시면 2번의 이미지와 달리 username 이 바뀐것을 알 수 있습니다.
 
-![4. 내 계정에 fork 생성](C:/Users/us/Desktop/%EB%B6%80%EC%97%89%EC%9D%B4/4.%20%EB%82%B4%20%EA%B3%84%EC%A0%95%EC%97%90%20fork%20%EC%83%9D%EC%84%B1.png)
+![4. 내 계정에 fork 생성](Fork%20%EC%82%AC%EC%9A%A9%EB%B2%95/4._%EB%82%B4_%EA%B3%84%EC%A0%95%EC%97%90_fork_%EC%83%9D%EC%84%B1.png)
 
  
 
@@ -30,7 +30,7 @@
 
 우리는 Fork한 Repository를 clone할 것이므로 다음과 같이 Forked Repository의 Github웹페이지에서 Clone 주소를 복사합니다.
 
-![6.](C:/Users/us/Desktop/%EB%B6%80%EC%97%89%EC%9D%B4/6..png)
+![6.](Fork%20%EC%82%AC%EC%9A%A9%EB%B2%95/6..png)
 
 이후 Git bash를 실행하여 아래의 명령어를 실행해줍니다.
 
@@ -121,7 +121,7 @@ forked Repository에서 pull-request 요청을 진행합니다
 
 ### 10. Fetch upstream, Fetch and merge
 
-![image-20220213205359565](C:/Users/us/AppData/Roaming/Typora/typora-user-images/image-20220213205359565.png)
+![image-20220213205359565](Fork%20%EC%82%AC%EC%9A%A9%EB%B2%95/image-20220213205359565.png)
 
 빨간색 체크박스로 표시된 곳을 차례대로 눌러주어 forked Repository에 최종 업데이트를 완료합니다.
 
