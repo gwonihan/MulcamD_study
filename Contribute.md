@@ -25,21 +25,21 @@
 
 1. 파일 생성
 
-**파일명**을 정하실 때, 백준 1000번 문제라면 **BOJ_1000_한동권.py** 와 같이 생성합니다.
+- **파일명**을 정하실 때, 백준 1000번 문제라면 **BOJ_1000_한동권.py** 와 같이 생성합니다.
 
 
 
 2. Push 규칙
 
-push를 진행하시기 전에 **반드시 pull 부터 진행**합니다.
+- push를 진행하시기 전에 **반드시 pull 부터 진행**합니다.
 
 ``` bash
 git pull <remote 이름> master
 ```
 
-<remote 이름> 에는 저희가 forked Repository 와 원본 Repository 를 분류하여 지정하였고, 지금은 원본 Repository의 파일을 가져오는 것이므로 upstream 으로 pull 하시면 됩니다.
+​	<remote 이름> 에는 저희가 forked Repository 와 원본 Repository 를 분류하여 지정하였고, 지금	은 원본 Repository의 파일을 가져오는 것이므로 upstream 으로 pull 하시면 됩니다.
 
-파일명은 반드시 1번의 규칙을 지켜주세요.
+​	파일명은 반드시 1번의 규칙을 지켜주세요.
 
 ```bash
 git add .
@@ -47,7 +47,7 @@ git commit -m 'BOJ_1000_한동권'   #commit하실때도 파일명과 같게 해
 git push <remote 이름> master
 ```
 
-push할 때, conflict 생길 경우 pull을 진행하였는지 확인해주시기 바랍니다. 
+​	push할 때, conflict 생길 경우 pull을 진행하였는지 확인해주시기 바랍니다. 
 
 ### :star: 주의사항 :star:
 
