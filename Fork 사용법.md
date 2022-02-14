@@ -80,14 +80,14 @@ Repository를 이처럼 나누는 것은 동일하게 origin 으로 별칭을 �
 
 사실 이건 안해도 충분히 진행할 수 있다고 합니다. 
 
-**하지만 각 그룹장님들께서는 branch를 생성하여 파일 업로드를 진행하셔야 합니다.** 그룹장님들은 직접적인 수정 권한을 가지고 있기때문에 push를 원본 소스에 진행할 경우 의도치 않은 변형을 일으키기 때문입니다.
+**하지만 각 그룹장님들께서는 branch를 생성하여 작업 후에 파일 업로드를 진행하셔야 합니다.** 그룹장님들은 직접적인 수정 권한을 가지고 있기때문에 push를 원본 소스에 진행할 경우 의도치 않은 변형을 일으키기 때문입니다.
 
 ```bash
 git branch <생성 branch 명>
 git switch <생성 branch 명>
 ```
 
-따라서 생성한 branch 로 이동하여 파일을 업로드해 주셔야 합니다. 이후에 merge 의 과정을 거쳐 최종적으로 push를 해줍니다.
+따라서 생성한 branch 로 이동하여 작업을 진행 후, merge 의 과정을 거쳐 최종적으로 push를 해줍니다.
 
 ### 8. commit & push
 
@@ -125,7 +125,33 @@ forked Repository에서 pull-request 요청을 진행합니다
 
 빨간색 체크박스로 표시된 곳을 차례대로 눌러주어 forked Repository에 최종 업데이트를 완료합니다.
 
+---
 
+### 그룹장님들께서 하셔야 할일 (Pull&Request)
+
+1. 그룹원들께서 작업을 마치신후 `pull&request` 를 하면, 자동적으로 그룹장님들이 등록한 이메일로 메일이 옵니다. 각 그룹장님들의 `원본 Repository로` 이동하면 아래와 같이 pull requests에 카운팅이 되어있는 것을 볼 수 있습니다. 클릭하여 들어가 줍니다.
+
+![img](Fork%20%EC%82%AC%EC%9A%A9%EB%B2%95/one._pull_Request.png)
+
+
+
+2. 클릭하여 들어가면 아래와 같은 창이 뜹니다. 파일명, Commit message 가 저희의 규칙대로 되어있는지 확인 하신 후에 `Merge pull request` 를 클릭합니다.
+
+![img](Fork%20%EC%82%AC%EC%9A%A9%EB%B2%95/three.png)
+
+
+
+3. 위의 과정을 마치시면 아래와 같이 업로드가 정상적으로 이루어 진것을 확인하실 수 있습니다.
+
+![img](Fork%20%EC%82%AC%EC%9A%A9%EB%B2%95/two.png)
+
+
+
+![img](Fork%20%EC%82%AC%EC%9A%A9%EB%B2%95/five.png)
+
+
+
+![img](Fork%20%EC%82%AC%EC%9A%A9%EB%B2%95/four.png)
 
 
 

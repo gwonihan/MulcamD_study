@@ -49,7 +49,48 @@ git push <remote 이름> master
 
 push할 때, conflict 생길 경우 pull을 진행하였는지 확인해주시기 바랍니다. 
 
+### :star: 주의사항 :star:
+
+**반드시 최상단 폴더에서 add, commit, push를 해주시기 바랍니다!!!!**
 
 
 
 
+
+### How to Code Review
+
+Commit History로 리뷰하는 방법
+
+1. Git hub에서 연습파일을 올린 폴더로 들어갑니다.
+
+   그러면 아래와 같은 화면이 나오는데 commit message(빨간박스)를 클릭해 줍니다.
+
+![img](Contribute/eins.png)
+
+
+
+2. 작성한 코드에 마우스를 올리면  `+`  버튼이 나타납니다. 
+
+   버튼을 클릭해 줍니다.
+
+![img](Contribute/zwei.png)
+
+
+
+3. 버튼을 클릭하면 다음과 같이 코멘트를 남길 수 있는 창이 생깁니다.
+
+   피드백하고싶은 내용을 적고 `Add single comment` 를 클릭해 줍니다.
+
+![img](Contribute/drei.png)
+
+
+
+4. 위의 절차대로 진행하면 아래와 같이 피드백이 잘 남겨진 것을 확인할 수 있습니다.
+
+![img](Contribute/vier.png)
+
+
+
+---
+
+이렇게 commit message 를 이용하여 코맨트를 남길 수도 있고 Discord 를 이용하면 화면을 보고 음성으로 대화 할 수 있어서 이를 이용해서 스터디를 진행하는 것도 괜찮을 것 같습니다. 더 좋은 아이디어가 있으시면 공유해 주시기 바랍니다!
