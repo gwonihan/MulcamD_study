@@ -43,21 +43,23 @@ git pull <remote 이름> master
 
 ```bash
 git add .
-git commit -m 'BOJ_1000_한동권'   #commit하실때도 파일명과 같게 해주시면 됩니다.
+git commit -m 'BOJ_1000_한동권'   #commit하실때는 BOJ_문제번호_성함으로 하시면 됩니다!
 git push <remote 이름> master
 ```
 
 ​	push할 때, conflict 생길 경우 pull을 진행하였는지 확인해주시기 바랍니다. 
 
-### :star: 주의사항 :star:
+### 					       
 
-**반드시 최상단 폴더에서 add, commit, push를 해주시기 바랍니다!!!!**
+###                            	:star: 주의사항 :star:
+
+​                    **반드시 최상단 폴더에서 add, commit, push를 해주시기 바랍니다!!!!**
 
 
 
 
 
-### How to Code Review
+### How to Code Review :white_check_mark:
 
 Commit History로 리뷰하는 방법
 
