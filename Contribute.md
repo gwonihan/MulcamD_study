@@ -25,7 +25,7 @@
 
 1. 파일 생성
 
-- **파일명**을 정하실 때, 백준 1000번 문제라면 **BOJ_1000_한동권.py** 와 같이 생성합니다.
+- **파일명**을 정하실 때, 백준 1000번 문제라면 **BOJ_1000.py** 와 같이 생성합니다.
 
 
 
@@ -43,7 +43,7 @@ git pull <remote 이름> master
 
 ```bash
 git add .
-git commit -m 'BOJ_1000_한동권'   #commit하실때는 BOJ_문제번호_성함으로 하시면 됩니다!
+git commit -m 'oo주차_성함'   
 git push <remote 이름> master
 ```
 
