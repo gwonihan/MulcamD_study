@@ -20,8 +20,13 @@ while ant[x][y] != 2:
 # 2인 먹이를 9로 할당
 ant[x][y] = 9
 
-# 개미집 출력
-for i in range(10):
-    for j in range(10):
-        print(ant[i][j], end=" ")
-    print()
+# # 개미집 출력
+# for i in range(10):
+#     for j in range(10):
+#         print(ant[i][j], end=" ")
+#     print()
+
+
+# 언패킹
+for i in ant:
+  print(*i)
